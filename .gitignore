@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 线索数据：含真实手机号，永远不要提交
+leads.csv
+leads_raw*.csv
+comments.txt
+*.local.csv
+
+# 下载的二维码原图
+*.jpg
+*.jpeg
+*.png
+!assets/*.png
+!docs/*.png
+
+# 系统文件
+.DS_Store
+Thumbs.db
